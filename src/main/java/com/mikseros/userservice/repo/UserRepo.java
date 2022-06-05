@@ -6,5 +6,5 @@ import com.mikseros.userservice.domain.User;
 
 public interface UserRepo extends JpaRepository<User, Long>{
 
-	User findByUserName(String username);
+	User findByUsername(String username);
 }
